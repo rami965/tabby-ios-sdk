@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let TabbySdkBundle = Bundle.module
+let TabbySdkBundle = Bundle(for: TabbySDK.self)
 
 public extension String {
   var localized: String {
