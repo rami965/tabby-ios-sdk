@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.4.0'
 
   s.subspec "Core" do |ss|
-    ss.source_files  = "Sources/**/*.swift"
-    ss.resources = 'Sources/Tabby/Resources'
+    ss.source_files  = "Sources/**/*.{swift,lproj,strings}"
     ss.framework  = "Foundation"
   end
 end
